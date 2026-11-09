@@ -1,0 +1,33 @@
+name: 故事、画面或工程导出问题
+description: 初剪逻辑、遗漏镜头、时间线、FCPXML导入或续跑问题
+title: "[剪辑] "
+body:
+  - type: markdown
+    attributes:
+      value: "请先提供不含私人内容的描述，不要上传整套素材、项目数据库、完整模型回执或Key。"
+  - type: input
+    id: environment
+    attributes:
+      label: App版本、芯片、内存、macOS和接收FCPXML的编辑软件版本
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 操作步骤、预期结果和实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 素材与剪辑概况
+      description: 文件数量、总时长、主要语种、目标时长/浮动、类型与故事问题；可提供不含隐私的时间码。
+  - type: dropdown
+    id: mode
+    attributes:
+      label: 导出时的字幕选项
+      options:
+        - 未涉及导出
+        - 不含字幕
+        - 含字幕
+        - 明确继续包含未校验字幕
