@@ -39,7 +39,7 @@ AI Cut Studio是一款独立的Mac AI视频粗剪工具，帮助你完成这一�
 
 需要Apple Silicon Mac和你自己的DeepSeek API Key；软件内测使用免费，AI服务费用由你的账户承担。它是桌面App，可以自行执行处理流程，不需要通过Codex或聊天助手代为选段。
 
-本仓库目前为维护者审阅使用的私有文档仓库，内测Release仍是草稿，**尚未正式公开**。登录有权限的GitHub账号后，在[Releases](https://github.com/zoliandiaz/AI-Cut-Studio/releases)中查看 `v0.3.2-beta.1` 草稿，下载 `AI-Cut-Studio-0.3.2-beta.1-AppleSilicon.dmg`。
+本仓库提供免费内测安装包与文档。在[Releases](https://github.com/zoliandiaz/AI-Cut-Studio/releases/tag/v0.3.2-beta.1)中选择标记为 **Pre-release** 的 `v0.3.2-beta.1`，下载 `AI-Cut-Studio-0.3.2-beta.1-AppleSilicon.dmg`。
 
 安装包约1GB，视频工具和两套语音模型已包含，不需要另装Homebrew、Xcode或下载模型。将App拖到“应用程序”，完成后推出镜像，再打开App。详见[安装说明](INSTALL.md)。
 
