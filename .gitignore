@@ -1,0 +1,8 @@
+# This repository is documentation and issue templates only.
+*.dmg
+*.zip
+*.app/
+*.sqlite*
+*.bin
+.env*
+.DS_Store
