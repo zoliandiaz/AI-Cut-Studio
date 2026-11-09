@@ -1,0 +1,32 @@
+name: 安装或启动问题
+description: 下载、系统提示、工具或模型准备失败
+title: "[安装] "
+body:
+  - type: markdown
+    attributes:
+      value: "这是公开反馈。不要填写序列号、API Key、密码、完整路径或私人素材。"
+  - type: input
+    id: version
+    attributes:
+      label: App版本与下载版本
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: 芯片、内存与macOS版本
+      placeholder: "例如 M2 Pro / 32GB / macOS 26.6.1"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 操作步骤和系统提示原文
+      description: 截图前遮挡姓名、路径和其他私人信息。
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: 已尝试的检查
+      description: 是否复制到应用程序、核对下载、运行App内工具模型检查。不要关闭系统安全保护。
