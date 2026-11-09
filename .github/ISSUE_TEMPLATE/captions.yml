@@ -1,0 +1,29 @@
+name: 语音识别或字幕翻译问题
+description: 语种误判、重复、漏字、译文或双轨字幕问题
+title: "[字幕] "
+body:
+  - type: markdown
+    attributes:
+      value: "不要直接上传私密人声或完整逐字稿。先用可公开的短文本说明；必要素材另行征求同意。"
+  - type: input
+    id: version
+    attributes:
+      label: App版本、macOS和语音模型
+    validations:
+      required: true
+  - type: input
+    id: languages
+    attributes:
+      label: 实际语种与App检测语种
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 时间码、识别原文、译文及正确含义（仅可公开内容）
+    validations:
+      required: true
+  - type: textarea
+    id: flags
+    attributes:
+      label: 是否提示识别异常、是否继续导出未校验字幕
