@@ -36,7 +36,7 @@ AI Cut Studio是一款独立的Mac AI视频粗剪工具，帮助你完成这一�
 
 - 一份可审核、可调整的初剪清单，以及故事章节和选段理由。
 - 一段用于检查故事与节奏的粗剪预览。
-- 一个FCPXML工程文件，保留继续编辑的空间。
+- 包含初剪与完整原片对照轴的FCPXML、独立对照工程和片段定位表。
 - 可选的字幕：中文内容配中文，外语内容保留原文并另附中文翻译；可导出独立SRT。识别与翻译都可能出错。
 
 本版专注于**素材梳理和故事初剪**。配乐、音乐卡点、转场、调色和最终精修仍在后续编辑软件中完成。它目前也不是只丢入素材、无需审核就能直接发布成片的工具。
@@ -45,7 +45,7 @@ AI Cut Studio是一款独立的Mac AI视频粗剪工具，帮助你完成这一�
 
 需要Apple Silicon Mac和你自己的DeepSeek API Key；软件内测使用免费，AI服务费用由你的账户承担。它是桌面App，可以自行执行处理流程，不需要通过Codex或聊天助手代为选段。
 
-本仓库提供免费内测安装包与文档。在[Releases](https://github.com/zoliandiaz/AI-Cut-Studio/releases/tag/v0.3.2-beta.1)中选择标记为 **Pre-release** 的 `v0.3.2-beta.1`，下载 `AI-Cut-Studio-0.3.2-beta.1-AppleSilicon.dmg`。
+本仓库提供免费内测安装包与文档。在[Releases](https://github.com/zoliandiaz/AI-Cut-Studio/releases/tag/v0.3.3-beta.1)中选择标记为 **Pre-release** 的 `v0.3.3-beta.1`，下载 `AI-Cut-Studio-0.3.3-AppleSilicon.dmg`。
 
 安装包约1GB，视频工具和两套语音模型已包含，不需要另装Homebrew、Xcode或下载模型。将App拖到“应用程序”，完成后推出镜像，再打开App。详见[安装说明](INSTALL.md)。
 
